@@ -4,11 +4,13 @@ class Game {
     private int score = 0, random;
 
     Game() {
+        System.out.println(
+                "Game Rules : There is a secret number between 1-100 and you have to guess, you got unlimited attempts.\nThe lesser atempt you take the better you are ... Have Fun !!\n");
         random = (int) (Math.random() * 100);
     }
 
     public void getScore() {
-        System.out.println("Hurray !!! You guessed the number in " + score + " attempt");
+        System.out.println("Hurray !!! You guessed the secret  number in " + score + " attempt");
     }
 
     public void setScore() {
@@ -16,7 +18,7 @@ class Game {
     }
 
     public int getUserInput() {
-        System.out.println("Enter a Number :");
+        System.out.print("Enter a Number :");
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
         return input;
@@ -56,9 +58,9 @@ public class GuessTheNumber {
                 obj.getScore();
                 break;
             } else if (obj.isGreater(num)) {
-                System.out.println("It's Greater than that ...");
+                System.out.println("The secret number is less than this ...");
             } else if (obj.isSmaller(num)) {
-                System.out.println("It's Less than that ...");
+                System.out.println("The secret number is greater than this ...");
             }
             obj.setScore();
         }

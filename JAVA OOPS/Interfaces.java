@@ -54,7 +54,12 @@ class Urus implements Lamborghini {
     public void offRoading() {
         System.out.println("Hurray !! We are gonna go Off road ... Time to experience some Adventure !!!");
     }
+}
 
+interface Test {
+    public static void runTest() {
+        System.out.println("This is a static method inside an interface ...");
+    }
 }
 
 public class Interfaces {
@@ -77,5 +82,7 @@ public class Interfaces {
         myurus.race();
         myurus.offRoading();
 
+        // Static method in interface
+        Test.runTest();
     }
 }

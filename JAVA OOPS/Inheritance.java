@@ -7,7 +7,7 @@ class Base1 {
         System.out.println("The value of a is :" + a);
     }
 
-    // public int a = 5;
+    public int a = 5;
 }
 
 class Derived1 extends Base1 {
@@ -21,6 +21,6 @@ public class Inheritance {
     public static void main(String[] args) {
         // Base1 obj=new Base1();
         Derived1 obj = new Derived1(4);
-        // System.out.println(obj.a);
+        System.out.println(obj.a);
     }
 }
