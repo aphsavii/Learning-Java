@@ -56,7 +56,7 @@ class Urus implements Lamborghini {
     }
 }
 
-interface Test {
+interface RTest {
     public static void runTest() {
         System.out.println("This is a static method inside an interface ...");
     }
@@ -83,6 +83,6 @@ public class Interfaces {
         myurus.offRoading();
 
         // Static method in interface
-        Test.runTest();
+        RTest.runTest();
     }
 }
