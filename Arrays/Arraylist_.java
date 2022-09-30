@@ -24,6 +24,6 @@ public class Arraylist_ {
             System.out.println(list.get(i));
         }
 
-        // size method returns the size of the arraylist and the indexOf method returns the index of the value in the parameter
+        // size method returns the size of the arraylist and the indexOf method returns the index of the value in the argument
     }
 }
