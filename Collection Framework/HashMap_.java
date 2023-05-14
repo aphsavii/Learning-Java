@@ -21,7 +21,7 @@ public class HashMap_ {
         System.out.println(hmp);
         System.err.println();
 
-        // get() method is used to access the hashmap elements | It tales key as
+        // get() method is used to access the hashmap elements | It taKes key as
         // parameter
         System.out.println(hmp.get(14));
         System.out.println();
@@ -33,7 +33,7 @@ public class HashMap_ {
         System.out.println(hmp.entrySet());
         System.out.println();
 
-        // replace() method can be used to reoalce a vlaue of a specifeid key given as
+        // replace() method can be used to replace a vlaue of a specifeid key given as
         // argument
         hmp.replace(15, "Anonymous");
         System.err.println(hmp);
